@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<style type="text/css">
+	table{
+		float:left;
+	}
+	table:hover{
+		color:red;
+	}
+	body{
+		overflow-x:hidden;
+		overflow-y:hidden;
+		margin: 0;
+		padding: 0;
+		
+		position:absolute;
+		height: 100%;
+		width: 100%;
+		background-color: #F0F8FF;
+		
+		background-size:1280px 720px;
+		background-repeat:no-repeat;
+		background-image:url('azur lane.jpg');
+　		width:1280px;
+　		height:720px;
+
+	}
+	img{
+		margin-top: -50px;
+		margin-left: -50px;
+	}
+	
+</style>
+<html>	<head>		<meta http-equiv=content-type content="text/html; charset=utf-8">		<title>布里打壞人</title>
+	</head>
+	<body onload="init()" onkeydown="keydown(event);" onkeyup="keyup(event);" onkeypress="keypress(event);">
+		<script type="text/javascript" src="main.js"></script>
+		<pre id="test">
+ 'Arrow': control the direction
+ 'shift': hold the direction(low speed mode)
+ 'space': place a puri
+ 'P': place 10 puri randomly
+ 'Z': shoot 2 bullets parallelly
+ 'X': shoot 3 bullets radially
+ 'L': list all puri
+ <font color="red">'S': Sandiego mode</font>
+ 'H': heal player puri
+ 'delete': delete all puri
+		</pre>
+		<div id="div1"></div>
+		<div id="enemy"></div>
+		<div id="bullet"></div>
+		<div id="char"></div>
+		
+	</body></html>
